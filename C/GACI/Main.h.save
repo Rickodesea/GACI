@@ -1,0 +1,9 @@
+#ifndef Main_H
+#define Main_H
+
+void errorHandler(FREE_IMAGE_FORMAT fif, const char *msg);
+char *newFilename(char* folder, char* name, char* extension);
+void copyMem(char *destination, int index, int length, char* source);
+
+
+#endif // Main_H
